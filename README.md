@@ -74,45 +74,32 @@ Administrators can:
 
 ### Homepage
 
-![Homepage](./screenshots/homepage.png)
+<img width="1488" height="959" alt="1" src="https://github.com/user-attachments/assets/5b0c4d8d-a91e-48ae-ab08-3aa584662153" />
+
 
 ### Map View
 
-![Map View](./screenshots/map-view.png)
+<img width="1487" height="959" alt="9" src="https://github.com/user-attachments/assets/e79b38b5-5952-4cd1-9255-f2082e7a553e" />
+
 
 ### Location Details
 
-![Location Details](./screenshots/location-details.png)
+<img width="1487" height="959" alt="10" src="https://github.com/user-attachments/assets/923e5c18-2e6f-4363-8deb-60cab09666f8" />
 
-### User Dashboard
-
-![User Dashboard](./screenshots/user-dashboard.png)
 
 ### Explorer Dashboard
 
-![Explorer Dashboard](./screenshots/explorer-dashboard.png)
+<img width="1487" height="959" alt="5" src="https://github.com/user-attachments/assets/8766e036-4b18-4f43-a6b1-c88ca908fcaa" />
+
 
 ### Admin Dashboard
 
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+<img width="1487" height="959" alt="8" src="https://github.com/user-attachments/assets/834f0113-3f8e-49fa-8a39-4e30e0634e04" />
 
 ### Location Submission
 
-![Location Submission](./screenshots/location-submission.png)
-
-### Reviews & Ratings
-
-![Reviews & Ratings](./screenshots/reviews-ratings.png)
-
-### Authentication
-
-![Authentication](./screenshots/authentication.png)
-
-### Mobile View
-
-![Mobile View](./screenshots/mobile-view.png)
-
-> Replace the image paths above with your actual screenshot locations.
+<img width="1487" height="959" alt="6" src="https://github.com/user-attachments/assets/f1ed87ca-a17f-4f47-9c0d-f3847804de9f" />
+<img width="1487" height="959" alt="7" src="https://github.com/user-attachments/assets/4300a8bb-18ad-437a-bf15-82ffedb67ca9" />
 
 ---
 
@@ -252,6 +239,5 @@ npx nodemon src/backend/server.js
 
 ## 📄 License
 
-This project was developed as a freelance project for LostPlaces.
-
+This project was developed as a final year project for university.
 All rights reserved.
