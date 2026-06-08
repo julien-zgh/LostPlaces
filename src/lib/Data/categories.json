@@ -1,0 +1,110 @@
+[
+  {
+    "category_id": "HISTORICAL",
+    "category": "Historical",
+    "color": "#E63946",
+    "icon": "Castle"
+  },
+  {
+    "category_id": "NATURE",
+    "category": "Nature",
+    "color": "#2A9D8F",
+    "icon": "Tree"
+  },
+  {
+    "category_id": "URBAN.EXPLORATION",
+    "category": "Urban Exploration",
+    "color": "#F4A261",
+    "icon": "Building"
+  },
+  {
+    "category_id": "ABANDONED.PLACES",
+    "category": "Abandoned Places",
+    "color": "#6D6875",
+    "icon": "Skull"
+  },
+  {
+    "category_id": "MOUNTAINS.&.HILLS",
+    "category": "Mountains & Hills",
+    "color": "#264653",
+    "icon": "Mountain"
+  },
+  {
+    "category_id": "WATERFALLS.&.FOUNTAINS",
+    "category": "Waterfalls & Fountains",
+    "color": "#0077B6",
+    "icon": "Droplet"
+  },
+  {
+    "category_id": "PARKS.&.GARDENS",
+    "category": "Parks & Gardens",
+    "color": "#4CAF50",
+    "icon": "Flower"
+  },
+  {
+    "category_id": "MONUMENTS.&.STATUES",
+    "category": "Monuments & Statues",
+    "color": "#FFB703",
+    "icon": "Monument"
+  },
+  {
+    "category_id": "CAVES.&.UNDERGROUND",
+    "category": "Caves & Underground",
+    "color": "#8D99AE",
+    "icon": "Cave"
+  },
+  {
+    "category_id": "RUINS.&.CASTLES",
+    "category": "Ruins & Castles",
+    "color": "#9C6644",
+    "icon": "Archive"
+  },
+  {
+    "category_id": "RELIGIOUS.SITES",
+    "category": "Religious Sites",
+    "color": "#FF6F61",
+    "icon": "Church"
+  },
+  {
+    "category_id": "CULTURAL.SITES",
+    "category": "Cultural Sites",
+    "color": "#A020F0",
+    "icon": "Theater"
+  },
+  {
+    "category_id": "SCENIC.VIEWS.&.LOOKOUTS",
+    "category": "Scenic Views & Lookouts",
+    "color": "#FCA311",
+    "icon": "Eye"
+  },
+  {
+    "category_id": "BEACHES.&.LAKES",
+    "category": "Beaches & Lakes",
+    "color": "#00B4D8",
+    "icon": "Beach"
+  },
+  {
+    "category_id": "TRAILS.&.HIKING.PATHS",
+    "category": "Trails & Hiking Paths",
+    "color": "#7B3F00",
+    "icon": "MapPin"
+  },
+  {
+    "category_id": "INDUSTRIAL.SITES",
+    "category": "Industrial Sites",
+    "color": "#606060",
+    "icon": "Factory"
+  },
+  {
+    "category_id": "ARCHITECTURAL.LANDMARKS",
+    "category": "Architectural Landmarks",
+    "color": "#D62828",
+    "icon": "Building"
+  },
+  {
+    "category_id": "ARCHAEOLOGICAL.SITES",
+    "category": "Archaeological Sites",
+    "color": "#B5651D",
+    "icon": "Archive"
+  }
+]
