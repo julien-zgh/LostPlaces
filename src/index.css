@@ -1,0 +1,126 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import "~@fancyapps/ui/fancybox.css";
+
+
+@layer base {
+  :root {
+    --background: 37 24% 96%;
+    --foreground: 30 15% 15%;
+
+    --card: 37 24% 98%;
+    --card-foreground: 30 15% 15%;
+
+    --popover: 37 24% 98%;
+    --popover-foreground: 30 15% 15%;
+
+    --primary: 24 58% 55%;
+    --primary-foreground: 37 24% 96%;
+
+    --secondary: 43 18% 58%;
+    --secondary-foreground: 30 15% 15%;
+
+    --muted: 37 15% 91%;
+    --muted-foreground: 30 15% 45%;
+
+    --accent: 37 15% 88%;
+    --accent-foreground: 30 15% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 37 24% 96%;
+
+    --border: 37 15% 85%;
+    --input: 37 15% 85%;
+    --ring: 24 58% 55%;
+
+    --radius: 0.75rem;
+    
+    --terracotta: 24 58% 55%;
+    --olive: 43 18% 58%;
+    --cream: 37 24% 96%;
+    --stone: 30 15% 55%;
+  }
+
+  .dark {
+    --background: 30 15% 8%;
+    --foreground: 37 24% 96%;
+
+    --card: 30 15% 10%;
+    --card-foreground: 37 24% 96%;
+
+    --popover: 30 15% 10%;
+    --popover-foreground: 37 24% 96%;
+
+    --primary: 24 58% 55%;
+    --primary-foreground: 30 15% 8%;
+
+    --secondary: 43 18% 28%;
+    --secondary-foreground: 37 24% 96%;
+
+    --muted: 30 15% 15%;
+    --muted-foreground: 37 15% 65%;
+
+    --accent: 30 15% 18%;
+    --accent-foreground: 37 24% 96%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 37 24% 96%;
+
+    --border: 30 15% 18%;
+    --input: 30 15% 18%;
+    --ring: 24 58% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  } */
+}
+
+@layer utilities {
+  .text-terracotta {
+    color: hsl(var(--terracotta));
+  }
+  
+  .bg-terracotta {
+    background-color: hsl(var(--terracotta));
+  }
+  
+  .text-olive {
+    color: hsl(var(--olive));
+  }
+  
+  .bg-olive {
+    background-color: hsl(var(--olive));
+  }
+  
+  .text-stone {
+    color: hsl(var(--stone));
+  }
+  
+  .bg-stone {
+    background-color: hsl(var(--stone));
+  }
+  
+  .text-cream {
+    color: hsl(var(--cream));
+  }
+  
+  .bg-cream {
+    background-color: hsl(var(--cream));
+  }
+}
