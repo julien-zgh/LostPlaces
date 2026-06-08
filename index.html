@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LostPlaces - Whispers of the Past</title>
+    <meta
+      name="description"
+      content="Discover the world's hidden secrets with us"
+    />
+    <meta name="author" content="BuiltByJulien_" />
+
+    <meta property="og:title" content="Whispers of the Past" />
+    <meta
+      property="og:description"
+      content="Discover the world's hidden secrets with us"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/logo.png" />
+
+    <link rel="icon" href="/Images/logo.png" type="image/x-icon" />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Loader container */
+      #video-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: black; /* fallback background */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 9999;
+        transition: opacity 0.6s ease;
+      }
+
+      /* Video styling */
+      #video-loader video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* makes it fill without stretching */
+        object-position: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="video-loader">
+      <video
+        id="loader-video"
+        src="/loader.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+      ></video>
+    </div>
+
+    <div id="root"></div>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const loader = document.getElementById("video-loader");
+        if (loader) {
+          loader.style.opacity = "0";
+          setTimeout(() => loader.remove(), 600);
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
